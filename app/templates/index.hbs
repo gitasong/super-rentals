@@ -4,7 +4,7 @@ We hope you find exactly what you're looking for in a place to stay.
 
 <p>{{#link-to 'announcements'}}Click here for Site-Wide Announcements{{/link-to}}</p>
 
-<ul id="rentals">
+<ul>
   {{#each model as |rental|}}
     {{rental-tile rental=rental destroyRental="destroyRental"}}
   {{/each}}
