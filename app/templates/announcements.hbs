@@ -1,6 +1,6 @@
 <h1>Announcements</h1>
 <ul id="announcements">
   {{#each model as |announcement|}}
-    <li>{{announcement.location}}: {{announcement.message}}</li>
+    <li><strong>{{announcement.type}}</strong>  {{announcement.location}}: {{announcement.message}}</li>
   {{/each}}
 </ul>
