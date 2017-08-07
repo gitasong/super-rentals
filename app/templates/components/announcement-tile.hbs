@@ -1,1 +1,4 @@
-<li><strong>{{announcement.type}}</strong>  {{announcement.location}}: {{announcement.message}}</li>
+<li>
+  <strong>{{announcement.type}}</strong>  {{announcement.location}}: {{announcement.message}}
+  <button {{action 'delete' announcement}}>Delete Announcement</button>
+</li>
