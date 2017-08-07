@@ -2,7 +2,9 @@
 
 We hope you find exactly what you're looking for in a place to stay.
 
-<ul>
+<p>{{#link-to 'announcements'}}Click here for Site-Wide Announcements{{/link-to}}</p>
+
+<ul id="rentals">
   {{#each model as |rental|}}
     {{rental-tile rental=rental destroyRental="destroyRental"}}
   {{/each}}
