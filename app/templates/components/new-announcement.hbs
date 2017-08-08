@@ -1,1 +1,5 @@
-{{yield}}
+{{#if addNewAnnouncement}}
+  <p>Display new announcement form - to be replaced with form code soon.</p>
+{{else}}
+  <button {{action 'announcementFormShow'}}>New Announcement</button>
+{{/if}}
