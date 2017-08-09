@@ -5,7 +5,7 @@ We hope you find exactly what you're looking for in a place to stay.
 <p>{{#link-to 'announcements'}}Click here for Site-Wide Announcements{{/link-to}}</p>
 
 <ul>
-  {{#each model as |rental|}}
+  {{#each model.rentals as |rental|}}
     {{rental-tile rental=rental}}
   {{/each}}
 </ul>
