@@ -24,17 +24,27 @@
     "image": "http://ei.marketwatch.com//Multimedia/2016/11/04/Photos/ZH/MW-EZ493_miami__20161104120841_ZH.jpg?uuid=f41fe4c4-a2a8-11e6-ac14-001cc448aede"
   }],
 
-"announcements": [{
-  "type": "warning",
-  "location": "Acapulco, Mexico",
-  "message": "Tropical storm warning; residents told to evacuate"
-}, {
-  "type": "info",
-  "location": "Pago Pago, American Samoa",
-  "message": "Smoke signals seen in distance"
-}, {
-  "type": "warning",
-  "location": "Canberra, Australia",
-  "message": "Town overrun by koala bears"
+  "reviews": [{
+      "author": "Andrea",
+      "rating": 4,
+      "content": "Did not fall down."
+    }, {
+      "author": "Alex",
+      "rating": 9,
+      "content": "Nice view of the volcano!"
+    }],
+
+  "announcements": [{
+    "type": "warning",
+    "location": "Acapulco, Mexico",
+    "message": "Tropical storm warning; residents told to evacuate"
+  }, {
+    "type": "info",
+    "location": "Pago Pago, American Samoa",
+    "message": "Smoke signals seen in distance"
+  }, {
+    "type": "warning",
+    "location": "Canberra, Australia",
+    "message": "Town overrun by koala bears"
   }]
 }
