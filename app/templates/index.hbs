@@ -15,7 +15,7 @@ We hope you find exactly what you're looking for in a place to stay.
 <h2>All Reviews</h2>
 <ul>
   {{#each model.reviews as |review|}}
-    <li>{{review.rating}} - {{review.content}} - {{review.author}}</li>
+    <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
     {{/each}}
 </ul>
 
